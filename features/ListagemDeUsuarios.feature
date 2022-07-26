@@ -10,3 +10,5 @@ Scenario: Exibindo a lista de usuario com gostos em comum
     e busco por: encontros casuais.
     And    tambem vejo "Joana Luzia" que possui Hobby: treinar e viajar
     e busco por: encontros casuais.
+    And    tambem vejo "Maria Clara" que possui Hobby: treinar e viajar
+    e busco por: encontros casuais.
