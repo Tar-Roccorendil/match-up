@@ -1,0 +1,24 @@
+header {
+    background: rgb(255, 49, 100);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.logo-header p {
+    color: rgb(27, 9, 9);
+    font-size: 1.5rem;
+}
+.links-header {
+    list-style: none;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.link-header {
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+.link-header a {
+    text-decoration: none;
+}
