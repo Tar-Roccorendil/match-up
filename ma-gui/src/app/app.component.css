@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.app-root {
+    background-color: #445;
+}
+.user-card {
+    padding: 10px 20px;
+}
+.list-users {
+    position: relative;
+    display: flex;
+}
+.list-users-cards {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    transition: all ease-in 0.4s;
+}
+.right-button-slider {
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.8);
+    border: none;
+    top: 50%;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+}
+.left-button-slider {
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.8);
+    border: none;
+    top: 50%;
+    position: absolute;
+    left: 0;
+    z-index: 99;
+}
+.button-slider:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(240, 248, 255, 0.95);
+    cursor: pointer;
+}

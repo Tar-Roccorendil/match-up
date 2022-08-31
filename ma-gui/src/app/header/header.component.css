@@ -1,10 +1,11 @@
 header {
-    background: rgb(255, 49, 100);
+    background: #ff6c90;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
+    z-index: 9999;
 }
 .logo-header p {
     color: rgb(27, 9, 9);
@@ -19,6 +20,7 @@ header {
     font-size: 1.1rem;
     margin-right: 15px;
 }
-.link-header a {
+.link-header a , a:active {
     text-decoration: none;
+    color: inherit;
 }
